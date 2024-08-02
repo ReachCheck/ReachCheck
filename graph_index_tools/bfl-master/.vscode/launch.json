@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "name": "(gdb)Launch",
+            "request": "launch",
+            "program": "/home/hjf/图可达性对比工作/bfl-master/bout",
+            "cwd": "/home",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "MIMode": "gdb",
+            "args": [
+            ]
+        }
+    ]
+}

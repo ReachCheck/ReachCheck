@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "fstream": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "exception": "cpp",
+        "optional": "cpp",
+        "functional": "cpp",
+        "future": "cpp",
+        "iosfwd": "cpp",
+        "ranges": "cpp",
+        "stdexcept": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "algorithm": "cpp"
+    }
+}
