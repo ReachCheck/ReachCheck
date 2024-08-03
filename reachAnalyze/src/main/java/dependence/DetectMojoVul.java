@@ -15,7 +15,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-//-f=D:/办公/IDEA/project/testReachCheck/pom.xml -DrepoPath=C:\Users\hjf\Desktop\testExample\repo -DtargetJar=D:/办公/IDEA/project/testReachCheck/target/testReachCheck-1.0-SNAPSHOT.jar -Dmaven.test.skip=true org.example:reachAnalyze:1.0:detectVul -e
 @Mojo(name = "detectVul", defaultPhase = LifecyclePhase.VALIDATE)
 public class DetectMojoVul extends ConflictMojo {
     Map<String, Analyze2> jarMap = new HashMap<>();
