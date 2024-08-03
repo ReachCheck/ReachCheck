@@ -15,7 +15,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-// -f=C:\Users\hjf\Desktop\reachCheck\第三方库下载\azure-storage-java\microsoft-azure-storage-samples\src\com\microsoft\azure\storage\logging\pom.xml -DtargetJar=C:\Users\hjf\Desktop\reachCheck\第三方库下载\azure-storage-java\microsoft-azure-storage-samples\src\com\microsoft\azure\storage\logging\target\azure-storage-samples-logging-0.0.1-SNAPSHOT.jar -Dmaven.test.skip=true org.example:reachAnalyze:1.0:detectConflict -e
 @Mojo(name = "detectConflict", defaultPhase = LifecyclePhase.VALIDATE)
 public class DetectMojoConflict extends ConflictMojo {
     Map<String, Analyze2> jarMap = new HashMap<>();
