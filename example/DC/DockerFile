@@ -1,0 +1,15 @@
+FROM maven:3.6
+
+COPY ./repository /root/.m2/repository
+COPY ./ReachCheck /app/ReachCheck
+COPY ./liteproto /app/liteproto
+
+# Install ReachCheck
+WORKDIR /app/ReachCheck
+RUN mvn install -Dmaven.test.skip=true
+
+# Pre-execute once, download the necessary package
+WORKDIR /app/liteproto
+RUN mvn -f=./pom.xml -DtargetJar=./target/truth-liteproto-extension-0.41.jar -Dmaven.test.skip=true org.example:ReachCheck:1.0:detectConflict -e
+
+CMD ["mvn", "-f=./pom.xml", "-DtargetJar=./target/truth-liteproto-extension-0.41.jar", "-Dmaven.test.skip=true", "org.example:ReachCheck:1.0:detectConflict", "-e"]

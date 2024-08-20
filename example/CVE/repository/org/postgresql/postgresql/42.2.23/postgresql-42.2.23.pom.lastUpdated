@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 16 00:03:51 CST 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1705334631097
+https\://repo2.maven.org/maven2/.error=Could not transfer artifact org.postgresql\:postgresql\:pom\:42.2.23 from/to repo2.maven.org (https\://repo2.maven.org/maven2)\: Transfer failed for https\://repo2.maven.org/maven2/org/postgresql/postgresql/42.2.23/postgresql-42.2.23.pom
+https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1705331822904
+https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1705331821939
+https\://oss.sonatype.org/content/repositories/snapshots/.error=
+@default-repo2.maven.org-https\://repo2.maven.org/maven2/.lastUpdated=1705331821704

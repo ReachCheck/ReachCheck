@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ReachCheck_example</groupId>
+  <artifactId>callGraph_reachCheck</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240719060919</lastUpdated>
+  </versioning>
+</metadata>

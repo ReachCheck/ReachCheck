@@ -1,0 +1,15 @@
+com.google.errorprone.annotations.CompatibleWith: value()Ljava.lang.String;
+com.google.errorprone.annotations.DoNotCall: value()Ljava.lang.String;
+com.google.errorprone.annotations.DoNotMock: value()Ljava.lang.String;
+com.google.errorprone.annotations.Immutable: containerOf()[Ljava.lang.String;
+com.google.errorprone.annotations.IncompatibleModifiers: value()[Ljavax.lang.model.element.Modifier;
+com.google.errorprone.annotations.RequiredModifiers: value()[Ljavax.lang.model.element.Modifier;
+com.google.errorprone.annotations.RestrictedApi: allowedOnPath()Ljava.lang.String;
+com.google.errorprone.annotations.RestrictedApi: checkerName()Ljava.lang.String;
+com.google.errorprone.annotations.RestrictedApi: explanation()Ljava.lang.String;
+com.google.errorprone.annotations.RestrictedApi: link()Ljava.lang.String;
+com.google.errorprone.annotations.RestrictedApi: whitelistAnnotations()[Ljava.lang.Class;
+com.google.errorprone.annotations.RestrictedApi: whitelistWithWarningAnnotations()[Ljava.lang.Class;
+com.google.errorprone.annotations.concurrent.GuardedBy: value()Ljava.lang.String;
+com.google.errorprone.annotations.concurrent.LockMethod: value()[Ljava.lang.String;
+com.google.errorprone.annotations.concurrent.UnlockMethod: value()[Ljava.lang.String;

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.google.truth.extensions</groupId>
+    <artifactId>truth-extensions-parent</artifactId>
+    <version>0.41</version>
+  </parent>
+  <artifactId>truth-liteproto-extension</artifactId>
+  <name>Truth Extension for Lite Protocol Buffers</name>
+  <description>
+    An extension for the Truth test assertion framework supporting the Lite
+    version of Protocol Buffers.
+  </description>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- TODO(cgruber): Add protoc dependencies to support tests. -->
+    <maven.test.skip>true</maven.test.skip>
+
+    <!-- dependency versions -->
+    <auto-value.version>1.5.3</auto-value.version>
+    <error_prone_annotations.version>2.2.0</error_prone_annotations.version>
+    <checker-framework.version>2.0.0</checker-framework.version>
+    <guava.version>23.6-android</guava.version>
+    <protobuf.version>3.3.1</protobuf.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.truth</groupId>
+      <artifactId>truth</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>${guava.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.checkerframework</groupId>
+      <artifactId>checker-compat-qual</artifactId>
+      <version>${checker-framework.version}</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value</artifactId>
+      <version>${auto-value.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+      <version>${error_prone_annotations.version}</version>
+    </dependency>
+    <!-- TODO(dploch): Depend on protobuf-lite when available. -->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>${protobuf.version}</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+      <!-- TODO(cgruber): Add protoc dependencies to support tests. -->
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+
+

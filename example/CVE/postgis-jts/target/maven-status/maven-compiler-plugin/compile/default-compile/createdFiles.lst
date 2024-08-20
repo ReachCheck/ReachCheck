@@ -1,0 +1,12 @@
+org/h2gis/postgis_jts/JtsGeometry.class
+org/h2gis/postgis_jts/DataSourceWrapper.class
+org/h2gis/postgis_jts/StatementWrapper.class
+org/h2gis/postgis_jts/JtsBinaryWriter.class
+org/h2gis/postgis_jts/JtsBinaryParser.class
+org/h2gis/postgis_jts/Driver.class
+org/h2gis/postgis_jts/JtsWrapper.class
+org/h2gis/postgis_jts/ResultSetMetaDataWrapper.class
+org/h2gis/postgis_jts/ConnectionWrapper.class
+org/h2gis/postgis_jts/PostGISDBFactory.class
+org/h2gis/postgis_jts/ResultSetWrapper.class
+org/h2gis/postgis_jts/PreparedStatementWrapper.class

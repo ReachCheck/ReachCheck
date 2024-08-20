@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 12 15:50:41 CST 2024
+truth-0.41-gwt.jar>=
+truth-0.41.jar>=
+truth-0.41.pom>=

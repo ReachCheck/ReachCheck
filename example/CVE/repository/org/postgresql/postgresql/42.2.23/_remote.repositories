@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 16 00:03:51 CST 2024
+postgresql-42.2.23.pom>ossrh-release=
+postgresql-42.2.23.pom>central=
+postgresql-42.2.23.jar>alimaven=
+postgresql-42.2.23.jar>central=
+postgresql-42.2.23.pom>alimaven=

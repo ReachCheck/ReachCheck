@@ -1,0 +1,3 @@
+org.postgresql.Driver: connect(Ljava.lang.String;Ljava.util.Properties;)Ljava.sql.Connection;
+org.postgresql.Driver: connect(java.lang.String,java.util.Properties)Ljava.sql.Connection;
+org.postgresql.core.SocketFactoryFactory: getSocketFactory(Ljava.util.Properties;)Ljavax.net.SocketFactory;
