@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>reachAnalyze</artifactId>
+    <artifactId>ReachCheck_plugin</artifactId>
     <version>1.0</version>
     <packaging>maven-plugin</packaging>
 
@@ -15,7 +15,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.github.javaparser/javaparser-core -->
         <dependency>
             <groupId>com.github.javaparser</groupId>
             <artifactId>javaparser-core</artifactId>
@@ -69,7 +68,7 @@
             <version>3.27.0-GA</version>
         </dependency>
         <dependency>
-            <groupId>xmu.lab</groupId>
+            <groupId>org.ReachCheck_example</groupId>
             <artifactId>callGraph_reachCheck</artifactId>
             <version>0.0.2-SNAPSHOT</version>
         </dependency>
@@ -91,12 +90,6 @@
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                 </configuration>
                 <executions>
-<!--                    <execution>-->
-<!--                        <id>mojo-descriptor</id>-->
-<!--                        <goals>-->
-<!--                            <goal>descriptor</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
                     <execution>
                         <id>generated-helpmojo</id>
                         <goals>

@@ -18,13 +18,13 @@
 
 Dependency Conflict Detection:
 
-`mvn -f=<pomPath> -DtargetJar=<classesDirPath> -Dmaven.test.skip=true org.example:reachAnalyze:1.0:detectConflict -e`
+`mvn -f=<pomPath> -DtargetJar=<classesDirPath> -Dmaven.test.skip=true org.example:ReachCheck_plugin:1.0:detectConflict -e`
 
-`example: mvn -f=/conflict_detect/test_project/pom.xml -DtargetJar=/conflict_detect/test_project/target/classes -Dmaven.test.skip=true org.example:reachAnalyze:1.0:detectConflicte -e`
+`example: mvn -f=/conflict_detect/test_project/pom.xml -DtargetJar=/conflict_detect/test_project/target/classes -Dmaven.test.skip=true org.example:ReachCheck_plugin:1.0:detectConflicte -e`
 
 Vulnerability Reachability Analysis:
 
-`mvn -f=<pomPath> -DtargetJar=<classesDirPath> -Dmaven.test.skip=true org.example:reachAnalyze:1.0:detectVul -e`
+`mvn -f=<pomPath> -DtargetJar=<classesDirPath> -Dmaven.test.skip=true org.example:ReachCheck_plugin:1.0:detectVul -e`
 
 ## Executable Examples for Downstream Tasks
 We provide executable examples for the two downstream tasks: Dependency Conflict Detection and Vulnerability Reachability Analysis. 
