@@ -8,7 +8,7 @@
 
 **graph_index_tools** directory contains comparison tool code for experimental evaluation. Before using the comparison tool code in the **graph_index_tools** directory, please replace the `exp_path` variable in the code with the actual path to the **dataset** directory and compile the code.
 
-**reportData** directory contains the usefulness reports.
+**reportData** directory contains reports on the usefulness chapters.
 
 **dataset.tar.zst** contains the dataset used for experimental testing. Inside the compressed package, there is a file named  **query_project.txt** , which lists the experimental test projects.
 
