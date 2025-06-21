@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>detect CVE Maven Plugin</name>
+      <prefix>CVE-Detect</prefix>
+      <artifactId>CVE-Detect_baseline</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

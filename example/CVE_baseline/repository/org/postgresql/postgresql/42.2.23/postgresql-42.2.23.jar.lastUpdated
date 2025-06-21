@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jan 15 15:48:36 CST 2024
+https\://repo.deegree.org/content/groups/public/.error=
+https\://repo.osgeo.org/repository/geotools-releases/.error=
+https\://repo.deegree.org/content/groups/public/.lastUpdated=1705304915184
+https\://repo.osgeo.org/repository/geotools-releases/.lastUpdated=1705304915938
+https\://repo.maven.apache.org/maven2/.lastUpdated=1705304916067

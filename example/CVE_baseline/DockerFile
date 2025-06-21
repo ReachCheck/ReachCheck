@@ -1,0 +1,10 @@
+FROM maven:3.6
+
+COPY ./repository /root/.m2/repository
+COPY ./postgis-jts /app/postgis-jts
+
+# Pre-execute once, download the necessary package
+WORKDIR /app/postgis-jts
+RUN mvn -f=pom.xml -DignoreTestScope=true -Dmaven.test.skip=true ReachCheck:CVE-Detect_baseline:1.0:detectCVE -e
+
+CMD ["mvn", "-f=./pom.xml", "-DignoreTestScope=true", "-Dmaven.test.skip=true", "ReachCheck:CVE-Detect_baseline:1.0:detectCVE", "-e"]
