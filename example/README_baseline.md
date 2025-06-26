@@ -25,6 +25,7 @@ Follow these steps to replicate the environment.
 
    ```bash
    docker build --pull --rm -f "./CVE_baseline/DockerFile" -t baseline_cve:latest "./CVE_baseline"
+   docker build --pull --rm -f "./DC_baseline/DockerFile" -t baseline_dc:latest "./DC_baseline"
    ```
 
 ## Step 2: Run Docker Image
@@ -33,4 +34,5 @@ Start a container instance with the following command:
 
    ```bash
    docker run baseline_cve:latest
+   docker run baseline_dc:latest
    ```
