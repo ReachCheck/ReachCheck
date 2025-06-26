@@ -1,0 +1,5 @@
+com/google/common/truth/extensions/proto/LiteProtoSubject$MessageLiteSubjectFactory.class
+com/google/common/truth/extensions/proto/LiteProtoSubject$MessageLiteSubject.class
+com/google/common/truth/extensions/proto/LiteProtoSubject.class
+com/google/common/truth/extensions/proto/LiteProtoSubject$Factory.class
+com/google/common/truth/extensions/proto/LiteProtoTruth.class

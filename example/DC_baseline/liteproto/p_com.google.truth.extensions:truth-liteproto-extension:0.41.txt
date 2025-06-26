@@ -1,0 +1,47 @@
+classPath:/Users/wangchao/.m2/repository/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar:/Users/wangchao/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/wangchao/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar:/Users/wangchao/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/wangchao/.m2/repository/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar:/Users/wangchao/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/wangchao/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/wangchao/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/Users/wangchao/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/wangchao/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/wangchao/.m2/repository/com/google/guava/guava/23.6-android/guava-23.6-android.jar:/Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar:/Users/wangchao/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+pomPath:/Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto
+pathLen:3
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isNotEqualTo(java.lang.Object)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:3
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isNotEqualToDefaultInstance()> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:3
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void hasAllRequiredFields()> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:3
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isEqualTo(java.lang.Object)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:3
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isEqualToDefaultInstance()> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:4
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isNotEqualTo(com.google.protobuf.MessageLite$Builder)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isNotEqualTo(java.lang.Object)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:4
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isEqualTo(com.google.protobuf.MessageLite$Builder)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.extensions.proto.LiteProtoSubject: void isEqualTo(java.lang.Object)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.Subject: void failWithRawMessage(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:6
+<com.google.common.truth.extensions.proto.LiteProtoSubject: com.google.common.truth.IntegerSubject serializedSize()> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.protobuf.DescriptorProtos$ServiceOptions: int getSerializedSize()> /Users/wangchao/.m2/repository/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar
+<com.google.common.collect.Lists$TransformingRandomAccessList: java.lang.Object get(int)> /Users/wangchao/.m2/repository/com/google/guava/guava/23.6-android/guava-23.6-android.jar
+<com.google.common.truth.MapSubject$UsingCorrespondence$2: java.lang.Object apply(java.lang.Object)> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.truth.MapSubject$UsingCorrespondence$2: java.lang.String apply(com.google.common.truth.MapSubject$ValueDifference)> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>
+pathLen:7
+<com.google.common.truth.extensions.proto.LiteProtoTruth: com.google.common.truth.extensions.proto.LiteProtoSubject assertThat(com.google.protobuf.MessageLite)> /Users/wangchao/Downloads/ReachCheck-main/example/DC_baseline/liteproto/target/classes
+<com.google.common.truth.SimpleSubjectBuilder: com.google.common.truth.Subject that(java.lang.Object)> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.truth.MultimapSubject$2: com.google.common.truth.Subject createSubject(com.google.common.truth.FailureMetadata,java.lang.Object)> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.truth.MultimapSubject$2: com.google.common.truth.IterableSubject createSubject(com.google.common.truth.FailureMetadata,java.lang.Iterable)> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.truth.MultimapSubject$IterableEntries: void <init>(com.google.common.truth.FailureMetadata,com.google.common.truth.MultimapSubject,java.lang.Iterable)> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.truth.Subject: com.google.common.truth.Subject named(java.lang.String,java.lang.Object[])> /Users/wangchao/.m2/repository/com/google/truth/truth/0.41/truth-0.41.jar
+<com.google.common.base.Strings: java.lang.String lenientFormat(java.lang.String,java.lang.Object[])>

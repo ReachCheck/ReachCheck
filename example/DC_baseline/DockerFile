@@ -1,0 +1,10 @@
+FROM maven:3.6
+
+COPY ./repository /root/.m2/repository
+COPY ./liteproto /app/liteproto
+
+# Pre-execute once, download the necessary package
+WORKDIR /app/liteproto
+RUN mvn -f=pom.xml -DignoreTestScope=true -DresultPath=./ -Dmaven.test.skip=true org:dcDetect:1.0:dcDetect -e
+
+CMD ["mvn", "-f=./pom.xml", "-DresultPath=./", "-Dmaven.test.skip=true", "org:dcDetect:1.0:dcDetect", "-e"]
